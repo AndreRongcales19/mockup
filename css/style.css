@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* needed colors */
+:root {
+    --darker-white-background-color: rgb(249, 248, 255);
+}
+
+/* sections and footer */
+.first-section {
+    background-image: url(/img/counts-bg.png);
+}
+
+.second-section {
+    background-color: white;
+}
+
+.third-section, footer {
+    background-image: url(/img/counts-bg.png);
+}
+
+.fourth-section, .sixth-section, .eight-section, .tenth-section {
+    background-color: var(--darker-white-background-color);
+}
+
+.ninth-section {
+    background-color: rgb(86,35,255);
+}
+
+/* purple texts and symbols */
+.purple {
+    color: rgb(94, 45, 255);
+}
+
+/* all cards have no border */
+.card {
+    border: none;
+}
+
+/* buttons */
+.second-section-button {
+    color: white;
+    background: rgb(86,35,255);
+    background: linear-gradient(90deg, rgba(86,35,255,1) 57%, rgba(156,0,245,1) 100%);
+    border: none;
+    width: 130px;
+    height: 40px;
+    padding-right: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+
